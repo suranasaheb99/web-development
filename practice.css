@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right top, #1f465e, #2e5876);
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+div {
+  background-image: linear-gradient(to right bottom, #1f465e, #5ffbf1);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 100%;
+  margin: auto auto auto auto;
+}
+
+section {
+  position: relative;
+  padding: 20;
+  width: 100%;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  clear: right;
+}
+#p1 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  color: black;
+  width: 100px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: rgb(9, 94, 47);
+}
+#p2 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  color: black;
+  width: 100px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: fuchsia;
+}
+#p3 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  color: black;
+  width: 100px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 125%;
+  font-weight: bold;
+  background-color: rgba(89, 0, 255, 0.602);
+}
+
+#dummy-text {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  border: none;
+  font-family: Helvetica;
+  color: rgb(0, 0, 0);
+  margin: 0px;
+  height: 200px;
+  overflow: auto;
+}
+
+.row {
+  width: 90%;
+}
+
+/*LARGE DEVICES / DESKTOP VERSION*/
+/*  */
+@media (min-width: 992px) {
+  .column-lg-4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/*MEDIUM DEVICES/ TABLET VERSION */
+/*  */
+@media (min-width: 768px) and (max-width: 991px) {
+  .colmn-md-6 {
+    float: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .colmn-md-12 {
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/*SMALL DEVICES / MOBILE VERSION */
+/*  */
+@media (max-width: 767px) {
+  .colmn-sm-12 {
+    float: left;
+    width: 100%;
+  }
+}
+
+section {
+  position: relative;
+  padding: 15px;
+  width: 100%;
+}
